@@ -71,5 +71,33 @@ form .user-details .input-box{
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
     border-color: #9198e5;
+}
 
+form .gender-details .gender-details{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline-color: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient( #f17a7a, #9198e5);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+input .button input:hover{
+    background: linear-gradient(#9198e5, #f17a7a );
 }
